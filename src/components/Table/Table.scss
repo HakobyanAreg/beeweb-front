@@ -1,0 +1,24 @@
+table {
+  width: auto;
+  border-collapse: collapse;
+
+  thead {
+
+    tr {
+      text-align: left;
+
+      th {
+        resize: horizontal;
+        overflow: hidden;
+        /* required to make resize work */
+        position: sticky;
+        top: 0;
+
+      }
+
+      td {
+
+      }
+    }
+  }
+}

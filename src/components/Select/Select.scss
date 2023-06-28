@@ -1,0 +1,28 @@
+.select-wrapper {
+  position: relative;
+
+
+  &:after {
+    content: '>';
+    font-size: 14px;
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
+    right: 11px;
+    top: 8px;
+    padding: 0 0 2px;
+    position: absolute;
+    pointer-events: none;
+  }
+
+  select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: none;
+    padding: 8px 18px;
+    border: 0.5px solid #cecece;
+    border-radius: 5px;
+  }
+}
